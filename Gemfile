@@ -2,6 +2,10 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "activeresource", '~> 4.0.0'
+gem 'activeresource', github: 'rails/activeresource'
 
-gem 'minitest', "~> 4.2"
+gem 'minitest', "~> 5.1"
+gem 'activesupport', github: 'rails/rails'
+gem 'activemodel', github: 'rails/rails'
+gem 'arel', github: 'rails/arel'
+gem 'rails-observers', github: 'rails/rails-observers'
